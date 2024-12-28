@@ -1,9 +1,9 @@
 {
-  "name": "react-awesome-calendar",
-  "version": "1.0.14",
+  "name": "@jaafar/react-awesome-calendar",
+  "version": "1.0.15",
   "license": "MIT",
-  "author": "Michael Hamilton",
-  "description": "An easy to use React Calendar component",
+  "author": "Jaafar Rammal",
+  "description": "An easy to use React Calendar component. Original by Michael Hamilton. Forked to upgrade to React 19.0.0",
   "keywords": [
     "calendar",
     "events",
@@ -13,7 +13,7 @@
     "react-awesome-calendar",
     "monthly"
   ],
-  "homepage": "https://github.com/mikeham98/react-awesome-calendar",
+  "homepage": "https://github.com/JaafarRammal/react-awesome-calendar",
   "bugs": "https://github.com/mikeham98/react-awesome-calendar/issues",
   "main": "build/index.js",
   "scripts": {
