@@ -1,6 +1,6 @@
 {
   "name": "react-awesome-calendar-v2",
-  "version": "1.0.15",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Jaafar Rammal",
   "description": "An easy to use React Calendar component. Original by Michael Hamilton. Forked to upgrade to React 19.0.0",
