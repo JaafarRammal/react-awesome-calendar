@@ -29,20 +29,21 @@
     "not op_mini all"
   ],
   "peerDependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.83.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-typeof-symbol": "^7.10.4",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
-    "@babel/plugin-transform-typeof-symbol": "^7.10.4",
     "@babel/register": "^7.10.5",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^26.3.0",
@@ -50,8 +51,6 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.1",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.3",
     "enzyme-to-json": "^3.5.0",
     "eslint": "^7.7.0",
     "eslint-config-airbnb": "^18.2.0",
@@ -68,7 +67,6 @@
     "jest-cli": "^26.4.1",
     "jwt-decode": "^2.2.0",
     "mini-css-extract-plugin": "^0.4.4",
-    "node-sass": "^4.14.1",
     "prettier": "2.0.5",
     "prettier-eslint": "^11.0.0",
     "prettier-eslint-cli": "^5.0.0",
@@ -94,9 +92,6 @@
     },
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
-    ],
-    "setupFiles": [
-      "./enzymeSetup.js"
     ],
     "moduleNameMapper": {
       "^.+\\.(css|less|scss)$": "babel-jest"
